@@ -1,0 +1,45 @@
+@import "./reset.css";
+
+.screen {
+    width: 100%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.screen .screen__col1 {
+    width: 20%;
+    height: 615px;
+
+    background-color: aquamarine;
+}
+
+.screen .screen__col2 {
+    width: 80%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.screen .screen__col2 .screen__col2__sec1 {
+    width: 100%;
+    height: 205px;
+
+    background-color: blue;
+}
+
+.screen .screen__col2 .screen__col2__sec2 {
+    width: 100%;
+    height: 205px;
+ 
+    background-color: blueviolet;
+}
+
+.screen .screen__col2 .screen__col2__sec3 {
+    width: 100%;
+    height: 205px;
+    
+    background-color: chartreuse;
+}
